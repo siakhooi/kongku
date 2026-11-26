@@ -1,0 +1,16 @@
+repo: siakhooi/apt-linux
+branch: main
+git_commit_user: kongku
+git_commit_email: kongku@siakhooi.github.io
+git_commit_message: "{repo_name}: {ref_name} | {commit_short}"
+
+files:
+  - source: dist/kongku_*_amd64.deb
+    target: docs/pool/main/kongku/
+    items: 1
+  - source: dist/kongku_*_arm64.deb
+    target: docs/pool/main/kongku/
+    items: 1
+  - source: dist/kongku_*_i386.deb
+    target: docs/pool/main/kongku/
+    items: 1
